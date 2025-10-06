@@ -27,7 +27,7 @@
     "location": "Windsor / Chatham–Kent, Ontario, Canada",
     "targetRoles": ["Biomedical Engineering Technologist", "Clinical Engineering"],
     "clearances": ["First Aid", "CPR", "AED", "Worker H&S"],
-    "avatar": "",
+    "avatar": "assets/PHOTO.jpg",
 
     "birthdate": "2000-12-08",
     "birthdatePretty": "Dec 8, 2000",
@@ -38,7 +38,7 @@
   "links": {
     "email": "graham@example.com",
     "linkedin": "#",
-    "resume": "assets/Graham_Almeida_Resume.pdf"
+    "resume": "assets/RESUME1.pdf"
   },
   "about": {
     "lead": "I’m Graham Fredy Almeida, a Biomedical Engineering Technology graduate from St. Clair College (2025). My technical journey began in my family’s hardware business, where I learned tools, customer care, and practical problem-solving. I’ve since worked across pharmacy, electronics, automotive repair, and biomedical technology, giving me a multidisciplinary perspective that helps me solve challenges creatively. I enjoy the intersection of engineering, healthcare, and innovation—bringing embedded systems, soldering, troubleshooting, and preventive maintenance together to improve patient safety and care standards. I’m seeking roles as a Biomedical Engineering Technologist while progressing toward my long-term goal of becoming a Cybersecurity Biomedical Engineer.",
@@ -123,7 +123,7 @@
   "projects": [
     {
       "title": "Infusion IV Pump (Capstone)",
-      "thumb": "",
+      "thumb": "assets/INFUSION1.mp4",
       "thumbText": "ESP32 IV Infusion Pump",
       "summary": "Diaphragm-based IV infusion pump using ESP32 with LVGL display. Adjustable flow rate (mL/hr) and VTBI, IR occlusion detection, and two-way ESP32 comms for reliable control.",
       "tags": ["ESP32","LVGL UI","Sensors","Safety & Reliability"]
