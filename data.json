@@ -38,7 +38,7 @@
   "links": {
     "email": "graham@example.com",
     "linkedin": "#",
-    "resume": "assets/RESUME1.pdf"
+    "resume": "assets/Almeida-Graham-Resume.pdf"
   },
   "about": {
     "lead": "I’m Graham Fredy Almeida, a Biomedical Engineering Technology graduate from St. Clair College (2025). My technical journey began in my family’s hardware business, where I learned tools, customer care, and practical problem-solving. I’ve since worked across pharmacy, electronics, automotive repair, and biomedical technology, giving me a multidisciplinary perspective that helps me solve challenges creatively. I enjoy the intersection of engineering, healthcare, and innovation—bringing embedded systems, soldering, troubleshooting, and preventive maintenance together to improve patient safety and care standards. I’m seeking roles as a Biomedical Engineering Technologist while progressing toward my long-term goal of becoming a Cybersecurity Biomedical Engineer.",
@@ -123,21 +123,21 @@
 "projects": [
   {
     "title": "Infusion IV Pump (Capstone)",
-    "thumb": "assets/INFUSION1.mp4",
+    "thumb": "assets/project-thumb-infusion.mp4",
     "thumbText": "ESP32 IV Infusion Pump",
     "summary": "Diaphragm-based IV infusion pump using ESP32...",
     "tags": ["ESP32", "LVGL UI", "Sensors", "Safety & Reliability"]
   },
   {
     "title": "Anxiety Detection System",
-    "thumb": "assets/serenity_band.jpg",
+    "thumb": "assets/project-thumb-anxiety-detection.jpeg",
     "thumbText": "Serenity Band",
     "summary": "Wearable Serenity Band detecting anxiety episodes...",
     "tags": ["ECG", "ESP32", "Prototype Design"]
   },
   {
     "title": "NikeGs – Tech Wearable",
-    "thumb": "",
+    "thumb": "assets/project-thumb-nike.jpeg",
     "thumbText": "NikeGs DIY",
     "summary": "Customized Nike Air Force sneakers...",
     "tags": ["DIY", "Microcontrollers", "RGB Lighting"]
