@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "Graham Fredy Almeida · Biomedical Engineering Technologist",
+    "description": "Portfolio of Graham Fredy Almeida, Biomedical Engineering Technologist specializing in medical device servicing, preventive maintenance, embedded systems, and electrical safety testing.",
+    "themeColor": "#0a7282",
+    "ogTitle": "Graham Fredy Almeida · Biomedical Engineering Technologist",
+    "ogDescription": "Preventive maintenance · ESA testing · Embedded systems · Patient safety",
+    "ogUrl": "",
+    "ogImage": ""
+  },
+  "schemaPerson": {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Graham Fredy Almeida",
+    "jobTitle": "Biomedical Engineering Technologist",
+    "description": "Biomedical Engineering Technology graduate specializing in medical device servicing, repair, calibration, ESA testing, and embedded systems.",
+    "alumniOf": [{ "@type": "CollegeOrUniversity", "name": "St. Clair College" }],
+    "knowsAbout": ["Infusion pumps","Patient monitors","Electrical safety analysis","Calibration","Preventive maintenance","Embedded systems","Microcontrollers"],
+    "sameAs": []
+  },
+  "person": {
+    "name": "Graham Fredy Almeida",
+    "title": "Biomedical Engineering Technologist",
+    "eyebrow": "I don’t wait for opportunities, I engineer them.",
+    "heroTitle": "Biomedical Engineering Technologist focused on patient safety, device reliability, and embedded systems.",
+    "tagline": "Biomedical Engineering Technology graduate (2025) with hospital internship experience across servicing, repair, calibration, and electrical safety testing (ESA). Skilled in preventive maintenance, Philips & GE patient monitors, Dräger devices, and hands-on troubleshooting. Passionate about safe, innovative healthcare tech and creative DIY projects.",
+    "location": "Windsor / Chatham–Kent, Ontario, Canada",
+    "targetRoles": ["Biomedical Engineering Technologist", "Clinical Engineering"],
+    "clearances": ["First Aid", "CPR", "AED", "Worker H&S"],
+    "avatar": "",
+
+    "birthdate": "2000-12-08",
+    "birthdatePretty": "Dec 8, 2000",
+    "program": "Biomedical Engineering Technology – Equipment & Devices",
+    "college": "St. Clair College",
+    "collegeYears": "2022–2025"
+  },
+  "links": {
+    "email": "graham@example.com",
+    "linkedin": "#",
+    "resume": "assets/Graham_Almeida_Resume.pdf"
+  },
+  "about": {
+    "lead": "I’m Graham Fredy Almeida, a Biomedical Engineering Technology graduate from St. Clair College (2025). My technical journey began in my family’s hardware business, where I learned tools, customer care, and practical problem-solving. I’ve since worked across pharmacy, electronics, automotive repair, and biomedical technology, giving me a multidisciplinary perspective that helps me solve challenges creatively. I enjoy the intersection of engineering, healthcare, and innovation—bringing embedded systems, soldering, troubleshooting, and preventive maintenance together to improve patient safety and care standards. I’m seeking roles as a Biomedical Engineering Technologist while progressing toward my long-term goal of becoming a Cybersecurity Biomedical Engineer.",
+    "facts": [
+      { "label": "Strengths", "text": "Analytical troubleshooting, high-pressure performance, clear communication, team leadership." },
+      { "label": "Healthcare Focus", "text": "Patient safety, ESA testing, PM schedules, compliance documentation." },
+      { "label": "Embedded", "text": "ESP32, Arduino IDE, MicroPython, real-time systems, sensors." },
+      { "label": "Tools", "text": "Oscilloscopes, multimeters, ES analyzers, soldering stations." }
+    ],
+    "futureVision": "To specialize as a Cybersecurity Biomedical/Clinical Engineer, ensuring connected medical devices are secure, reliable, and standards-compliant."
+  },
+  "skills": {
+    "programmingSystems": ["HTML (10/10)", "Arduino IDE (9/10)", "MicroPython (8/10)", "Python (5/10)", "ESP32", "Real-time design", "Networking"],
+    "biomedDiagnostics": ["Infusion & CADD pumps", "Philips / GE monitors", "Dräger devices", "ECG · Defibrillators", "Ultrasound · Incubators", "Electrocautery", "Infant warmers", "Calibration", "Electrical Safety (ESA)", "Preventive maintenance"],
+    "softwareTools": ["Nuvolo", "Medimizer", "TMS", "AutoCAD", "Oscilloscope", "Multimeter", "ESA analyzers", "Soldering", "Welding (TIG/MIG/Arc/Spot/Plastic)"],
+    "softSkills": ["Analytical troubleshooting","Adaptability","Leadership & supervision","Teamwork","Technical communication","High-pressure performance","Customer focus"]
+  },
+  "experience": [
+    {
+      "role": "Biomedical Engineering Intern",
+      "org": "Chatham-Kent Health Alliance",
+      "location": "Chatham, ON",
+      "dates": "May–June 2024",
+      "bullets": [
+        "Performed preventive maintenance, repair, and troubleshooting on infusion and CADD pumps.",
+        "Worked with Philips & GE patient monitors and Dräger devices.",
+        "Conducted ESA 609, SpO<sub>2</sub>, and NIBP performance tests; documented via Nuvolo CMMS.",
+        "Collaborated with biomedical staff to ensure patient safety and regulatory compliance."
+      ]
+    },
+    {
+      "role": "Sous Chef / Line Cook",
+      "org": "Spago’s",
+      "location": "Windsor, ON",
+      "dates": "2023–Present",
+      "bullets": [
+        "Promoted from Pizza Maker to Sous Chef; supervised teams in high-pressure service.",
+        "Oversaw HACCP compliance, inventory, and plating; trained and delegated staff.",
+        "Strengthened leadership, communication, and coordination skills transferable to clinical engineering."
+      ]
+    },
+    {
+      "role": "Owner",
+      "org": "Classic Car Care",
+      "location": "",
+      "dates": "2018–2022",
+      "bullets": [
+        "Specialized in luxury vehicle electronics (Mercedes, BMW, Audi, Lexus, Toyota, Range Rover).",
+        "Used OEM schematics, oscilloscopes, and precision soldering for diagnostics and repair.",
+        "Managed customer communication and escalated complex repairs; upheld SOP compliance."
+      ]
+    },
+    {
+      "role": "CCTV Installer (Part-Time)",
+      "org": "",
+      "location": "",
+      "dates": "2015–2021",
+      "bullets": ["Installed CCTV and alarm systems; handled wire management and network troubleshooting."]
+    },
+    {
+      "role": "Pharmacy Internship",
+      "org": "",
+      "location": "",
+      "dates": "2020 · 300 hrs",
+      "bullets": ["Dispensed medicines, managed inventory, and operated pharmacy compliance software."]
+    },
+    {
+      "role": "GM Alcohol Plant – Internship",
+      "org": "",
+      "location": "",
+      "dates": "2020 · 3 months",
+      "bullets": ["Maintained bottling systems; PLC and sensor checks; fault detection and reporting."]
+    },
+    {
+      "role": "N Hardware – Family Business",
+      "org": "",
+      "location": "",
+      "dates": "2010–2022",
+      "bullets": ["Customer service, negotiation, cash handling, and inventory management from a young age."]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Infusion IV Pump (Capstone)",
+      "thumb": "",
+      "thumbText": "ESP32 IV Infusion Pump",
+      "summary": "Diaphragm-based IV infusion pump using ESP32 with LVGL display. Adjustable flow rate (mL/hr) and VTBI, IR occlusion detection, and two-way ESP32 comms for reliable control.",
+      "tags": ["ESP32","LVGL UI","Sensors","Safety & Reliability"]
+    },
+    {
+      "title": "Anxiety Detection System",
+      "thumb": "",
+      "thumbText": "Serenity Band",
+      "summary": "Wearable Serenity Band detecting anxiety episodes via ECG and breathing sensors. ESP32 with MicroPython for real-time monitoring, threshold-based alerts, and password-protected parameters.",
+      "tags": ["ECG & Respiration","MicroPython","ESP32","Prototype Design"]
+    },
+    {
+      "title": "NikeGs – Tech Wearable",
+      "thumb": "",
+      "thumbText": "NikeGs DIY",
+      "summary": "Customized Nike Air Force sneakers with integrated RGB-lit logo. Circuit design, microcontrollers, and precision soldering for durable lighting without compromising comfort.",
+      "tags": ["DIY","Microcontrollers","RGB Lighting"]
+    }
+  ],
+  "education": [
+    {
+      "school": "St. Clair College, Windsor, ON",
+      "credential": "Advanced Diploma",
+      "program": "Biomedical Engineering Technology: Equipment & Devices",
+      "years": "2022–2025",
+      "notes": "Specialization: medical device servicing, embedded systems, healthcare standards. Key projects: Infusion IV Pump, Anxiety Detection System."
+    },
+    {
+      "school": "NMIMS University, Mumbai, India",
+      "credential": "Diploma in Pharmacy",
+      "years": "2018–2020",
+      "notes": ""
+    },
+    {
+      "school": "Higher Secondary (2016–2018)",
+      "credential": "",
+      "years": "",
+      "notes": "Subjects: Physics, Chemistry, Mathematics, Biology"
+    }
+  ],
+  "certs": [
+    "Electrical Safety Testing (ESA 609)",
+    "First Aid, CPR, AED",
+    "Worker Health & Safety Awareness",
+    "Introduction to Microcontrollers & Embedded Systems",
+    "CompTIA Network+ (Ongoing)"
+  ],
+  "contactLead": "Interested in collaborating or hiring? I’m available for roles in Biomedical/Clinical Engineering, with a focus on device reliability, preventive maintenance, and electrical safety."
+}
