@@ -353,25 +353,53 @@
     });
   }
 
-  function renderProjects(list){
-    const grid = $('#projectsGrid'); grid.innerHTML='';
-    (list||[]).forEach(p=>{
-      const art = el('article','project card');
-      const thumb = el('div','thumb');
-      if (p.thumb){
-        const img = new Image(); img.src = p.thumb; img.alt = p.title;
-        thumb.appendChild(img);
+  function renderProjects(list) {
+  const grid = $('#projectsGrid');
+  grid.innerHTML = '';
+
+  (list || []).forEach(p => {
+    const art = el('article', 'project card');
+
+    // ----- media (image or video) -----
+    const thumb = el('div', 'thumb');
+    if (p.thumb) {
+      const isVideo = /\.(mp4|webm|ogg)$/i.test(p.thumb);
+      if (isVideo) {
+        const vid = document.createElement('video');
+        vid.src = p.thumb;
+        vid.controls = false;
+        vid.autoplay = true;
+        vid.loop = true;
+        vid.muted = true; // prevent autoplay blocking
+        vid.playsInline = true;
+        vid.style.width = '100%';
+        vid.style.height = '100%';
+        vid.style.objectFit = 'cover';
+        thumb.appendChild(vid);
       } else {
-        thumb.textContent = p.thumbText || p.title;
+        const img = new Image();
+        img.src = p.thumb;
+        img.alt = p.title;
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.objectFit = 'cover';
+        thumb.appendChild(img);
       }
-      const h3 = el('h3','',p.title);
-      const desc = el('p','',p.summary||'');
-      const tags = el('p');
-      (p.tags||[]).forEach(t=> tags.appendChild(el('span','chip',t)));
-      art.append(thumb,h3,desc,tags);
-      grid.appendChild(art);
-    });
-  }
+    } else {
+      thumb.textContent = p.thumbText || p.title;
+    }
+
+    // ----- text content -----
+    const h3 = el('h3', '', p.title);
+    const desc = el('p', '', p.summary || '');
+    const tags = el('p');
+    (p.tags || []).forEach(t => tags.appendChild(el('span', 'chip', t)));
+
+    art.append(thumb, h3, desc, tags);
+    grid.appendChild(art);
+  });
+}
+
 
   function renderEducation(list){
     const grid = $('#educationGrid'); grid.innerHTML='';

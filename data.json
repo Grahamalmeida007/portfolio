@@ -120,29 +120,29 @@
       "bullets": ["Customer service, negotiation, cash handling, and inventory management from a young age."]
     }
   ],
-  "projects": [
-    {
-      "title": "Infusion IV Pump (Capstone)",
-      "thumb": "assets/INFUSION1.mp4",
-      "thumbText": "ESP32 IV Infusion Pump",
-      "summary": "Diaphragm-based IV infusion pump using ESP32 with LVGL display. Adjustable flow rate (mL/hr) and VTBI, IR occlusion detection, and two-way ESP32 comms for reliable control.",
-      "tags": ["ESP32","LVGL UI","Sensors","Safety & Reliability"]
-    },
-    {
-      "title": "Anxiety Detection System",
-      "thumb": "",
-      "thumbText": "Serenity Band",
-      "summary": "Wearable Serenity Band detecting anxiety episodes via ECG and breathing sensors. ESP32 with MicroPython for real-time monitoring, threshold-based alerts, and password-protected parameters.",
-      "tags": ["ECG & Respiration","MicroPython","ESP32","Prototype Design"]
-    },
-    {
-      "title": "NikeGs – Tech Wearable",
-      "thumb": "",
-      "thumbText": "NikeGs DIY",
-      "summary": "Customized Nike Air Force sneakers with integrated RGB-lit logo. Circuit design, microcontrollers, and precision soldering for durable lighting without compromising comfort.",
-      "tags": ["DIY","Microcontrollers","RGB Lighting"]
-    }
-  ],
+"projects": [
+  {
+    "title": "Infusion IV Pump (Capstone)",
+    "thumb": "assets/INFUSION1.mp4",
+    "thumbText": "ESP32 IV Infusion Pump",
+    "summary": "Diaphragm-based IV infusion pump using ESP32...",
+    "tags": ["ESP32", "LVGL UI", "Sensors", "Safety & Reliability"]
+  },
+  {
+    "title": "Anxiety Detection System",
+    "thumb": "assets/serenity_band.jpg",
+    "thumbText": "Serenity Band",
+    "summary": "Wearable Serenity Band detecting anxiety episodes...",
+    "tags": ["ECG", "ESP32", "Prototype Design"]
+  },
+  {
+    "title": "NikeGs – Tech Wearable",
+    "thumb": "",
+    "thumbText": "NikeGs DIY",
+    "summary": "Customized Nike Air Force sneakers...",
+    "tags": ["DIY", "Microcontrollers", "RGB Lighting"]
+  }
+],
   "education": [
     {
       "school": "St. Clair College, Windsor, ON",
